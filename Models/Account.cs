@@ -22,7 +22,7 @@ namespace TrainingOOPBank.Models
 
             if (value > BalanceAvailable)
             {
-                Console.WriteLine("Saque e Saldo indisponível");
+                Console.WriteLine($"Saque acima do valor disponível em saldo.\nVocê pode sacar até: {Balance}");
                 return false;
             }
             this.Balance -= value;

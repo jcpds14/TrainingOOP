@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JJ\\jean\\jean\\workspace\\Exercises\\DotNet\\TrainingOOPBank\\TrainingOOPBank.csproj": {}
+    "C:\\Users\\JJ\\jean\\jean\\workspace\\exercises\\dotnet\\TrainingOOPBank\\TrainingOOPBank.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JJ\\jean\\jean\\workspace\\Exercises\\DotNet\\TrainingOOPBank\\TrainingOOPBank.csproj": {
+    "C:\\Users\\JJ\\jean\\jean\\workspace\\exercises\\dotnet\\TrainingOOPBank\\TrainingOOPBank.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JJ\\jean\\jean\\workspace\\Exercises\\DotNet\\TrainingOOPBank\\TrainingOOPBank.csproj",
+        "projectUniqueName": "C:\\Users\\JJ\\jean\\jean\\workspace\\exercises\\dotnet\\TrainingOOPBank\\TrainingOOPBank.csproj",
         "projectName": "TrainingOOPBank",
-        "projectPath": "C:\\Users\\JJ\\jean\\jean\\workspace\\Exercises\\DotNet\\TrainingOOPBank\\TrainingOOPBank.csproj",
+        "projectPath": "C:\\Users\\JJ\\jean\\jean\\workspace\\exercises\\dotnet\\TrainingOOPBank\\TrainingOOPBank.csproj",
         "packagesPath": "C:\\Users\\JJ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JJ\\jean\\jean\\workspace\\Exercises\\DotNet\\TrainingOOPBank\\obj\\",
+        "outputPath": "C:\\Users\\JJ\\jean\\jean\\workspace\\exercises\\dotnet\\TrainingOOPBank\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

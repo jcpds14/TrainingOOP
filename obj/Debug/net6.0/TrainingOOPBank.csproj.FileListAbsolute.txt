@@ -1,0 +1,15 @@
+C:\Users\JJ\jean\jean\workspace\exercises\dotnet\TrainingOOPBank\bin\Debug\net6.0\TrainingOOPBank.exe
+C:\Users\JJ\jean\jean\workspace\exercises\dotnet\TrainingOOPBank\bin\Debug\net6.0\TrainingOOPBank.deps.json
+C:\Users\JJ\jean\jean\workspace\exercises\dotnet\TrainingOOPBank\bin\Debug\net6.0\TrainingOOPBank.runtimeconfig.json
+C:\Users\JJ\jean\jean\workspace\exercises\dotnet\TrainingOOPBank\bin\Debug\net6.0\TrainingOOPBank.dll
+C:\Users\JJ\jean\jean\workspace\exercises\dotnet\TrainingOOPBank\bin\Debug\net6.0\TrainingOOPBank.pdb
+C:\Users\JJ\jean\jean\workspace\exercises\dotnet\TrainingOOPBank\obj\Debug\net6.0\TrainingOOPBank.csproj.AssemblyReference.cache
+C:\Users\JJ\jean\jean\workspace\exercises\dotnet\TrainingOOPBank\obj\Debug\net6.0\TrainingOOPBank.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JJ\jean\jean\workspace\exercises\dotnet\TrainingOOPBank\obj\Debug\net6.0\TrainingOOPBank.AssemblyInfoInputs.cache
+C:\Users\JJ\jean\jean\workspace\exercises\dotnet\TrainingOOPBank\obj\Debug\net6.0\TrainingOOPBank.AssemblyInfo.cs
+C:\Users\JJ\jean\jean\workspace\exercises\dotnet\TrainingOOPBank\obj\Debug\net6.0\TrainingOOPBank.csproj.CoreCompileInputs.cache
+C:\Users\JJ\jean\jean\workspace\exercises\dotnet\TrainingOOPBank\obj\Debug\net6.0\TrainingOOPBank.dll
+C:\Users\JJ\jean\jean\workspace\exercises\dotnet\TrainingOOPBank\obj\Debug\net6.0\refint\TrainingOOPBank.dll
+C:\Users\JJ\jean\jean\workspace\exercises\dotnet\TrainingOOPBank\obj\Debug\net6.0\TrainingOOPBank.pdb
+C:\Users\JJ\jean\jean\workspace\exercises\dotnet\TrainingOOPBank\obj\Debug\net6.0\TrainingOOPBank.genruntimeconfig.cache
+C:\Users\JJ\jean\jean\workspace\exercises\dotnet\TrainingOOPBank\obj\Debug\net6.0\ref\TrainingOOPBank.dll
