@@ -7,13 +7,20 @@ namespace TrainingOOPBank.Models
 {
     public class Account
     {
-        public Account(int number)
+        public Account(int number, double limit)
         {
             this.Number = number;
+            this.Limit = limit;
+            Account.TotalAccounts++;//Chamo pela classe pois TotalAccounts tem o valor static
         }
         private double Balance { get; set; }
         public double Limit { get; private set; }
         public int Number { get; private set; }
+        public static int TotalAccounts { get; set; }//static o atributo deixa de ser objeto e passa a pertencer a classe
+        public static int NextTotalAccounts()
+        {
+            return Account.TotalAccounts + 1;
+        }
 
         public void Deposit(double value)
         {
