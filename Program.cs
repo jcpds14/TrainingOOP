@@ -1,18 +1,22 @@
 ﻿using TrainingOOPBank.Models;
 
-Console.WriteLine("Treinando POO!");
+SavingsAccount cp1 = new SavingsAccount(001, 100);
 
-Account account1 = new Account(123, 500);
-Account account2 = new Account(456, 600);
-Account account3 = new Account(789, 700);
-Account account4 = new Account(012, 800);
+cp1.Deposit(100);
+cp1.Withdraw(10);
 
-Console.WriteLine($"Total de contas criadas: {Account.TotalAccounts}");
+double balance = cp1.BalanceConsultationAvailable();
 
-int total = Account.NextTotalAccounts();
+Console.WriteLine($"O Saldo é da conta poupança: {balance.ToString("C2")}");
 
-Console.WriteLine($"Próximo conta será: {total}");
+Account ac1 = new Account(002, 200);
 
+ac1.Deposit(600);
+ac1.Withdraw(200);
+
+double balanceCorrentAccount = ac1.BalanceConsultationAvailable();
+
+Console.WriteLine($"Saldo conta corrente: {balanceCorrentAccount.ToString("C2")}");
 
 
 
@@ -35,6 +39,21 @@ Console.WriteLine($"Próximo conta será: {total}");
 
 
 /*
+
+Console.WriteLine("Treinando POO!");
+
+Account account1 = new Account(123, 500);
+Account account2 = new Account(456, 600);
+Account account3 = new Account(789, 700);
+Account account4 = new Account(012, 800);
+
+Console.WriteLine($"Total de contas criadas: {Account.TotalAccounts}");
+
+int total = Account.NextTotalAccounts();
+
+Console.WriteLine($"Próximo conta será: {total}");
+
+
 
 //!AGGREGATION/AGREGAÇÃO
 CreditCard creditCard = new CreditCard();

@@ -13,7 +13,7 @@ namespace TrainingOOPBank.Models
             this.Limit = limit;
             Account.TotalAccounts++;//Chamo pela classe pois TotalAccounts tem o valor static
         }
-        private double Balance { get; set; }
+        private double Balance { get; set; }//Private permite o acesso apenas pela própria classe, Protected permite o acesso pela própria classe e pela classe que faça parte da herança
         public double Limit { get; private set; }
         public int Number { get; private set; }
         public static int TotalAccounts { get; set; }//static o atributo deixa de ser objeto e passa a pertencer a classe
