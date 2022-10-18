@@ -7,7 +7,7 @@ cp1.Withdraw(10);
 
 double balance = cp1.BalanceConsultationAvailable();
 
-Console.WriteLine($"O Saldo é da conta poupança: {balance.ToString("C2")}");
+Console.WriteLine($"O Saldo da conta poupança é: {balance.ToString("C2")}");
 
 Account ac1 = new Account(002, 200);
 
@@ -17,7 +17,6 @@ ac1.Withdraw(200);
 double balanceCorrentAccount = ac1.BalanceConsultationAvailable();
 
 Console.WriteLine($"Saldo conta corrente: {balanceCorrentAccount.ToString("C2")}");
-
 
 
 
