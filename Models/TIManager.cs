@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace TrainingOOPBank.Models
 {
-    public class AgencyManager : Manager
+    public class TIManager : Manager
     {
         public override void Readjust()
         {
