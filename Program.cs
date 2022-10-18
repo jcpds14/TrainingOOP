@@ -1,5 +1,69 @@
 ﻿using TrainingOOPBank.Models;
 
+TIAnalyst ti1 = new TIAnalyst();
+Manager m1 = new Manager();
+AgencyManager ag1 = new AgencyManager();
+TIManager tiM1 = new TIManager();
+
+ti1.Name = "Gustavo Sanches";
+ti1.Wage = 4000;
+
+Console.WriteLine($"O salário de {ti1.Name} é {ti1.Wage}");
+
+ti1.Readjust();
+
+Console.WriteLine($"O salário de {ti1.Name} reajustado foi para {ti1.Wage}");
+
+Console.WriteLine("________________________________________________________");
+
+m1.Name = "Ana Marques";
+m1.Wage = 9000;
+
+Console.WriteLine($"O salário de {m1.Name} é {m1.Wage}");
+
+m1.Readjust();
+
+Console.WriteLine($"O salário de {m1.Name} reajustado foi para {m1.Wage}");
+
+Console.WriteLine("________________________________________________________");
+
+
+ag1.Name = "Leandro dos Santos";
+ag1.Wage = 10000;
+
+Console.WriteLine($"O salário de {ag1.Name} é {ag1.Wage}");
+
+ag1.Readjust();
+
+Console.WriteLine($"O salário de {ag1.Name} reajustado foi para {ag1.Wage}");
+
+Console.WriteLine("________________________________________________________");
+
+tiM1.Name = "Jean Carlos";
+tiM1.Wage = 12000;
+
+Console.WriteLine($"O salário de {tiM1.Name} é {tiM1.Wage}");
+
+tiM1.Readjust();
+
+Console.WriteLine($"O salário de {tiM1.Name} reajustado foi para {tiM1.Wage}");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 SavingsAccount cp1 = new SavingsAccount(001, 100);
 
 cp1.Deposit(100);
@@ -21,23 +85,6 @@ Console.WriteLine($"Saldo conta corrente: {balanceCorrentAccount.ToString("C2")}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
 
 Console.WriteLine("Treinando POO!");
 

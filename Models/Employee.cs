@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace TrainingOOPBank.Models
 {
-    public abstract class Employee
+    public abstract class Employee //Classe abstrata não pode ser instanciada, apenas herdada
     {
         public string Name { get; set; }
         public double Wage { get; set; }

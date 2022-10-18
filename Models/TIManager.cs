@@ -9,7 +9,7 @@ namespace TrainingOOPBank.Models
     {
         public override void Readjust()
         {
-            this.Wage += 1300;
+            this.Wage += 1700;
         }
     }
 }
