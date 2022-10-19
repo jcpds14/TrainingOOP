@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace TrainingOOPBank.Models
 {
-    public class Account
+    public abstract class Account : IAccount
     {
         public Account(int number, double limit)
         {

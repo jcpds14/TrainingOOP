@@ -1,5 +1,52 @@
 ﻿using TrainingOOPBank.Models;
 
+TIAnalyst ti = new TIAnalyst();
+
+ti.AddName("Jean", "Carlos");
+ti.AddWage(2000);
+
+Console.WriteLine($"O salário é: {ti.Wage}");
+
+ti.Readjust();
+
+Console.WriteLine($"O salário reajustado é: {ti.Wage}");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+SavingsAccount sA = new SavingsAccount(110, 0);
+
+sA.Deposit(110);
+sA.Withdraw(50);
+
+double BalanceAvailableSavings = sA.BalanceConsultationAvailable();
+
+Console.WriteLine($"Saldo Poupança é: {BalanceAvailableSavings}");
+
+CheckingAccount cA = new CheckingAccount(111, 100);
+
+cA.Deposit(100);
+cA.Withdraw(50);
+
+double BalanceAvailableChecking = cA.BalanceConsultationAvailable();
+
+Console.WriteLine($"Saldo Corrente é: {BalanceAvailableChecking}");
+
+
+
+
 TIAnalyst ti1 = new TIAnalyst();
 Manager m1 = new Manager();
 AgencyManager ag1 = new AgencyManager();
@@ -51,19 +98,6 @@ Console.WriteLine($"O salário de {tiM1.Name} reajustado foi para {tiM1.Wage}");
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-/*
 SavingsAccount cp1 = new SavingsAccount(001, 100);
 
 cp1.Deposit(100);
